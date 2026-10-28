@@ -11,7 +11,7 @@
   {%- set min_size = "1,000GB" -%}
   {%- set max_size = "50,000GB" -%}
   {%- set max_size_text = "" -%}
-  {%- set network_acl_guide_url = "/Network/Network%20ACL/ko/overview" -%}
+  {%- set network_acl_guide_url = "/Network/Network%20ACL/" ~ language ~ "/overview" -%}
   {%- set support_url = "https://www.nhncloud.com/kr/support/inquiry" -%}
   {%- set overview_capacity_prefix = "" -%}
   {%- set scale_description = "" -%}
